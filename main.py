@@ -2,10 +2,10 @@ import requests, random, string
 
 # Выполните запрос к API cPanel
 def generate_email():
-    cpanel_url = 'https://u2641963.cp.regruhosting.ru:2083'  # URL вашего cPanel сервера
-    cpanel_user = 'u2641963'       # Ваш логин cPanel
-    cpanel_password = 'R1fwsy90Z0wKHXhB'
-    email_domain = 'freezmail.org'            # Домен создаваемого почтового ящика
+    cpanel_url = ')'  # URL вашего cPanel сервера
+    cpanel_user = 'usr'       # Ваш логин cPanel
+    cpanel_password = '123'
+    email_domain = 'gmail.org'            # Домен создаваемого почтового ящика
     email_quota = 10                         # Квота для почтового ящика в МБ
 
     # Составьте URL для API вызова
