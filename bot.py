@@ -5,9 +5,9 @@ from aiogram.filters import CommandStart, Command
 from main import generate_email
 import logging
 
-admin_id = 1134469599
+admin_id = 0
 
-bot = AioBot(token='7152583569:AAE_UjgoZyhBkh0mNVwzf_KgchcthQRLThM')
+bot = AioBot(token=os.getenv(TOKEN)
 dp = Dispatcher()
 logging.basicConfig(level=logging.INFO)
 
